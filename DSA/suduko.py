@@ -1,5 +1,5 @@
 # create a suduko game using python
-#Sudoku game
+
 
 #import necessary libraries
 import random
