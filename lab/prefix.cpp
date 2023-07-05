@@ -32,8 +32,7 @@ string infixToPostfix(string infix)
 		if (isalpha(infix[i]) || isdigit(infix[i]))
 			output += infix[i];
 
-		// If the scanned character is an
-		// ‘(‘, push it to the stack.
+		// If the scanned character is an ‘(‘, push it to the stack.
 		else if (infix[i] == '(')
 			char_stack.push('(');
 
