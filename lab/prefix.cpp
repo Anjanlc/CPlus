@@ -36,8 +36,7 @@ string infixToPostfix(string infix)
 		else if (infix[i] == '(')
 			char_stack.push('(');
 
-		// If the scanned character is an
-		// ‘)’, pop and output from the stack
+		// If the scanned character is an ‘)’, pop and output from the stack
 		// until an ‘(‘ is encountered.
 		else if (infix[i] == ')') {
 			while (char_stack.top() != '(') {
