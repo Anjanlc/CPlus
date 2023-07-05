@@ -1,4 +1,4 @@
-// create a c++ program for tower of hanoi
+// create a c++ program for tower of hanoi 
 
 #include <iostream>
 
@@ -19,6 +19,6 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod)
 int main() 
 { 
     int n = 4; // Number of disks 
-    towerOfHanoi(n, 'A', 'C', 'B');  // A, B and C are names of rods 
+    towerOfHanoi(n, 'A', 'C', 'B');  // A, B and C are names of rods
     return 0; 
 }
