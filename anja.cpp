@@ -39,5 +39,5 @@ int main(){
     d2.displaydata();
     d3.displaydata();
 
-    return 1;
+    return 0;
 }
