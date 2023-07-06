@@ -65,7 +65,7 @@ int main(){
     comparedata(d1, d2);
 
     cout<<"\n\n\t\t\t\t\t\t\t Bye Bye see you again :) "<<endl;
-    return 1;
+    return 0;
 
 
 
