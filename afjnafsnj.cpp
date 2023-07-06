@@ -70,6 +70,6 @@ int main(){
 
     compare(d1,d2);
 
-    return 3;
+    return 0;
 
 }
