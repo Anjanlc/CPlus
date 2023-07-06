@@ -85,7 +85,7 @@ int main(){
 
     highest(O,T,H,d);
 
-    return 1;
+    return 0;
 
 }
 
